@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Happy Birthday Indah Cahya Nabilla from MINDAM RANDOM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(255, 0, 0, 0);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .logo img{
+width: 170px;
+        }
+
+        .search-bar {
+            padding: 8px;
+            border: 0.5px solid #474747;
+            border-radius: 20px 0 0 20px;
+           
+            width: 530px;
+            height: 20px;
+            background-color: white;
+        }
+.searchlogo{
+    border-radius: 0 20px 20px 0;
+    width: 65px;
+    height: 38.5px;
+    margin-left: 1px;
+    border-left: red;
+    border: 0.5px solid #9b9b9b;
+    background-color: #e8e8e8;
+}
+.searchlogo svg{
+    fill: rgb(0, 0, 0);
+}
+        /* Container */
+        .container {
+            display: flex;
+            max-width: 1600px;
+            max-height: 2000px;
+            margin: 20px auto;
+        }
+
+        /* Video Main */
+        .video-main {
+            flex: 2;
+            background-color: white;
+           
+            padding: 20px;
+            
+            margin-left: 20px;
+            border-radius: 8px;
+        }
+
+        .video-main iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        /* Sidebar */
+        .oval-button {
+            padding: 8px;
+            border: 0.5px solid #474747;
+            border-radius: 20px;
+            color: rgb(0, 0, 0);
+            width: 365px;
+            height: 36px;
+            cursor: pointer;
+            background-color: white;
+        }
+        .mic{
+            border-radius: 50px;
+            width: 35.9px;
+            border: none;
+            height: 35.9px;
+            background-color: #e8e8e8;
+            margin-left: 16px;
+        }
+        .mic svg{
+            fill: rgb(0, 0, 0);
+            margin-bottom: 10px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            width: 100px;
+            margin-right: 20px;
+
+            border-radius: 8px;
+        }
+
+        .sidebar h2 {
+            margin-bottom: 10px;
+            color: rgb(0, 0, 0);
+        }
+
+        .video-thumbnail {
+            margin-bottom: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+            flex-direction: row;
+        }
+
+        .video-thumbnail img {
+            width: 150px;
+            height: 80px;
+            border-radius: 7px;
+        }
+.teks1{
+    padding: 0px 10px;
+    border-radius: 4px;
+    top: 10px;
+    right: 10px;
+}
+
+        /* Comments */
+        .channel {
+            margin-top: 10px;
+            display: flex;
+    align-items: center;
+        }
+
+        .imgchnl{
+            flex: 0 0 auto; /* Elemen gambar akan tetap di lebar defaultnya */
+            margin-right: 10px;
+        }
+        .namechnl{
+            flex: 1;
+        }
+        .imgchnl img{
+            border-radius: 50%;
+            width: 37px;
+        }
+        .anal{
+            margin-right: 70px;
+        }
+        .chanel img{
+            border-radius: 50%;
+            width: 37px;
+        }
+
+        .comment {
+            border-bottom: 1px solid #000000;
+            padding: 10px 0;
+        }
+
+        .comment p {
+            margin: 5px 0;
+            color: rgb(0, 0, 0);
+        }
+        .other{
+            display: flex;
+            
+        }
+        .other svg ,.other img{
+            margin-right: 20px;
+            
+        }
+         /* Style untuk kontrol video */
+         video::-webkit-media-controls-panel {
+            background-color: #ff000000; /* Warna latar belakang kontrol */
+            color: #ffffff; /* Warna ikon dan teks kontrol */
+        }
+
+        /* Style untuk progress bar */
+        video::-webkit-media-controls-timeline {
+            background-color: rgba(255, 0, 0, 0); /* Warna latar belakang progress bar */
+        }
+
+        /* Style untuk tombol play/pause */
+        video::-webkit-media-controls-play-button {
+            color: #ffffff; /* Warna ikon tombol play/pause */
+        }
+
+        /* Style untuk tombol volume */
+        video::-webkit-media-controls-mute-button,
+        video::-webkit-media-controls-volume-slider {
+            color: #ffffff; /* Warna ikon tombol volume */
+        }
+
+        /* Style untuk tombol full screen */
+        video::-webkit-media-controls-fullscreen-button {
+            color: #ffffff; /* Warna ikon tombol full screen */
+        }
+        .deskrip{
+            background-color: #ededed;
+            height: 90px;
+            border-radius: 15px;
+        }
+.urutkan{
+    display: flex;
+margin-left: 40px;
+margin-top: 7px;
+}
+.urutkan svg{
+    margin-top: 13px;
+    margin-right: 5px;
+}
+.judulkomen{
+    display: flex;
+}
+.rilkomen{
+    display: flex;
+}
+.tambahkan{
+    margin-left: 10px;
+}
+.elikomen{
+    display: flex;
+}
+.elikomen p{
+    margin-left: 20px;
+}
+.chanels img{
+ margin-top: 19px;
+ border-radius: 50%;
+ width: 37px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div><a href="#" class="logo"><img src="Screenshot 2024-03-21 224905.jpg" alt=""></a></div>
+        <div>
+        <!-- <input  type="text" class="search-bar" placeholder="Telusuri"> -->
+       <img src="search.jpg" width="640px">
+        <button class="mic"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z"></path></svg></button>
+        </div>
+<div class="other">
+    <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 5px;" height="24" viewBox="0 0 24 24" width="24" focusable="false"><path d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 5px;" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false"><path d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z"></path></svg>
+<div class="chanel"><img src="channel.jpg"></div></div>
+</div>
+    </header>
+
+    <div class="container">
+        <div class="video-main">
+            <!-- Video Utama (Ganti URL iframe dengan URL video YouTube yang ingin ditampilkan) -->
+            <!-- <iframe width="670" height="515" src="https://www.youtube.com/watch?v=3Lr6vMJkEPo&t=252s&pp=ygUJdGdwdXJuYW1h" frameborder="0" allowfullscreen></iframe> -->
+            <video src="Happy Birthday Indah Cahya Nabilla from MINDAM RANDOM.mp4" width="845px" controls autoplay style="border-radius: 20px;"></video>
+<div class="deskripsi">
+<h2 style="color: rgb(0, 0, 0); font-size:19px;">Happy Birthday Indah Cahya Nabilla from MINDAM RANDOM</h2>
+</div>
+            <!-- Komentar -->
+            <div class="channel">
+                <div class="imgchnl">
+                    <img   src="channel.jpg">
+                </div>
+               
+                <div class="namechnl"><p><b>TGPURNAMA</b> <br><span style="color: #585858; font-size:12px;">24,2 rb subscriber</span></p></div>
+                <div class="anal"><img src="analytic.jpg" alt="likes" style="width: 200px;"></div>
+                <img src="likes.jpg" alt="likes" style="width: 400px;">
+                <!-- Tambahkan lebih banyak komentar sesuai kebutuhan -->
+            </div>
+<div class="deskrip">
+    <!-- <img src="gap.jpg" width="1px"> -->
+<p style="font-size: 14px; margin-left:10px; padding-top:10px;">
+    <span><b>3.036 x ditonton  22 jam yang lalu</b></span> <br>
+    masih dalam rangka ulang tahun Indah, kami persembahkan episode spesial stalk media sosial member JKT48 pertama yang berdurasi 1 jam lebih sebagai kado (gak penting) dari kami untuk Indah
+     <br><span><b>…lainnya</b></span></p>
+</div>
+<div class="judulkomen">
+    <div>
+        <h3>Komentar</h3>
+    </div>
+    <div class="urutkan">
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" ><path d="M21 6H3V5h18v1zm-6 5H3v1h12v-1zm-6 6H3v1h6v-1z"></path></svg> <p>Urutkan</p>
+    </div>
+</div>
+<div class="rilkomen">
+    <div class="chanel">
+        <img src="channel.jpg" alt="">
+    </div>
+    <div class="tambahkan"><span style="color:#7e7e7e;">Tambahkan Komentar</span> <br><span style="color: #bababa;">___________________________________________________________________________________________</span></div>
+</div>
+<img src="gap.jpg" alt="">
+<div class="elikomen">
+    <div class="chanels">
+        <span style="margin-top: 50px;"><img src="helisma.png" ></span>
+    </div>
+    <div>
+        <p><span><b>@helismaputri</b></span> <span style="color:#7e7e7e;">18 jam yang lalu</span> <br>saya tunggu fase selanjutnya</p>
+        
+    </div>
+</div>
+</div>
+
+        <div class="sidebar">
+            <button class="oval-button">Tampilkan rekaman chat</button>
+            <img src="Screenshot 2024-03-21 230117.jpg" style="width: 360px; margin-top:30px; margin-bottom:10px;">
+            <!-- Thumbnail Video -->
+            <div class="video-thumbnail">
+                <img src="thmbnail1.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">TERNYATA TG MASIH SAYANG ELI? | Stalk Eli JKT48 <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">16 rb x ditonton
+                7 bulan yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail2.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Selamat Ulang Tahun dan Terima Kasih, Helisma. <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">3,1 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <div class="video-thumbnail">
+                <img src="thmbnail.jpg" alt="Thumbnail Video">
+            <p class="teks1" style="font-size: 13px;">Helisma Mauludzunia Putri Kurnia <br><span style="color:#585858; font-size:10px;">TGPURNAMA</span> <br><span style="color: #585858; font-size:10px;">11 rb x ditonton
+                1 tahun yang lalu</span></p></div>
+            <!-- Tambahkan thumbnail video lainnya sesuai kebutuhan -->
+        </div>
+    </div>
+</body>
+</html>
